@@ -14,6 +14,7 @@
     }
     .about{
         height: auto;
+        padding-bottom: 50px;
     }
     .in-about{
         flex-direction: column;
@@ -37,13 +38,14 @@
     #coind{
         /* margin-top: 100px;
         /* height: 0%; */
-        /* width: 100%;  */
+        width: 150%; 
         /* display: none; */
     }
 
     .why{
         /* background: red; */
         height: auto;
+        padding-bottom: 30px;
     }
     .in-why{
         flex-direction: column;
@@ -82,6 +84,8 @@
         /* background-color: red; */
         height: auto;
         /* height: 200vh; */
+        margin-top: 50px;
+        padding-bottom: 50px;
     }
 
     .inner-investors{
@@ -102,14 +106,20 @@
 }
     .tokenomics{
         height: auto;
-        /* background-color: red; */
+        /* background-color: white; */
+        border-bottom: none;
+        border-top: none;
+        background: url(./img/why-bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 50px;
     }
     .inner-tokenomics{
         flex-direction: column;
     }
 
     .main-tokenomics>h3{
-        font-size: 28px;
+        font-size: 35px;
         padding-top: 50px;
     }
     .tgrid{
@@ -117,9 +127,14 @@
     }
 
     .inner-tgrid{
-        width: 70%;
+        width: 90%;
+        padding-bottom: 50px;
+        background-color: transparent;
     }
 
+    .inner-tgrid:nth-child(1){
+        padding-top: 100px;
+    }
     .inner-tgrid h3{
         font-size: 30px;
     }
@@ -129,7 +144,8 @@
         /* background-color: red; */
     }
     .inner-roadmap>h3{
-        font-size: 30px;
+        padding-top: 30px;
+        font-size: 35px;
     }
 
     .roadmap-card{
