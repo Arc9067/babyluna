@@ -1,0 +1,44 @@
+@font-face {
+    font-family: cregular;
+    src: url(./fonts/ClashDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: cbold;
+    src: url(./fonts/ClashDisplay-Bold.ttf);
+}
+
+@font-face {
+    font-family: clight;
+    src: url(./fonts/ClashDisplay-Light.ttf);
+}
+
+@font-face {
+    font-family: cmedium;
+    src: url(./fonts/ClashDisplay-Medium.ttf);
+}
+
+@font-face {
+    font-family: csemibold;
+    src: url(./fonts/ClashDisplay-Semibold.ttf);
+}
+
+@font-face {
+    font-family: cvar;
+    src: url(./fonts/ClashDisplay-Variable.ttf);
+}
+
+@font-face {
+    font-family: cexlight;
+    src: url(./fonts/ClashDisplay-Extralight.ttf);
+}
+
+@font-face {
+    font-family: gobook;
+    src: url(./fonts/GothamBook.ttf);
+}
+
+@font-face {
+    font-family: gobold;
+    src: url(./fonts/GothamBold.ttf);
+}

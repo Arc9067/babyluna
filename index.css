@@ -1,0 +1,426 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.home{
+    height: 100vh;
+    width: 100%;
+    background: url(./img/home-bgpc.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.inner-home1{
+    height: 85%;
+    width: 50%;
+    /* background-color: yellow; */
+    margin-left: 5%;
+}
+
+.inner-home1>h3{
+    font-family: cbold;
+    font-size: 50px;
+    background: linear-gradient(to right, #ffd83d 20%, #fff 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .inner-home1>p{
+    background: linear-gradient(to bottom, #ffd83d 20%, #fff 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+      font-family: cmedium;
+      margin-top: 50px;
+      font-size: 23px;
+  }
+
+  .home-btn{
+      width: 350px;
+      height: 50px;
+      /* background-color: red; */
+      margin-top: 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  .home-btn>button{
+      background-color: #ffd83d;
+      width: 40%;
+      height: 100%;
+      outline: none;
+      border: none;
+      font-family: cregular;
+      text-decoration: none;
+      font-size: 20px;
+      border-radius: 15px;
+      text-transform: uppercase;
+      color: black;
+  }
+
+  .btn-a{
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+  }
+
+  .about{
+      height: 100vh;
+      width: 100%;
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+  }
+
+  .in-about{
+      height: 90%;
+      width: 90%;
+      /* background-color: green; */
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .main-about:nth-child(1){
+      width: 50%;
+  }
+
+  .main-about:nth-child(1)>h3{
+      font-family: cbold;
+      font-size: 40px;
+  }
+
+  .main-about:nth-child(1)>p{
+      font-family: cmedium;
+      margin-top: 30px;
+      font-size: 16px;
+      /* font-weight: bold; */
+      word-spacing: 5px;
+      color: white;
+    }
+  .special{
+      margin-left: 10px;
+      background-color: #ffd83d;
+      border-radius: 15px;
+      color: black;
+      padding: 10px;
+      text-decoration: underline;
+      text-decoration-color: #ffd83d;
+  }
+
+
+  .home-btn2>button{
+      width: 50%;
+  }
+
+  .btn-a2>i{
+      font-size: 20px;
+      font-weight: bold;
+  }
+
+  .main-about:nth-child(1)>.home-btn>.btn-a{
+      width: 50%;
+  }
+
+  .main-about{
+      height: 100%;
+      width: 40%;
+      /* background-color: blue; */
+  }
+
+  .why{
+      height: 100vh;
+      width: 100%;
+      /* background-color: red; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: url(./img/why-bg.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+  }
+
+  .in-why{
+      height: 100%;
+      width: 90%;
+      /* background-color: green; */
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .main-why{
+      height: 100%;
+      width: 40%;
+      /* background-color:blue; */
+  }
+
+  .main-why:nth-child(2){
+      width: 50%;
+      color: white;
+  }
+
+  .main-why:nth-child(2)>h3{
+      padding-top: 20px;
+      font-family: cbold;
+      font-size: 40px;
+      color: #ffd83d;
+  }
+
+  .main-why:nth-child(2)>p{
+      font-family: cmedium;
+      padding-top: 50px;
+      font-size: 20px;
+  }
+  .special2{
+      border-top-left-radius: 25px;
+      border: none;
+  }
+
+  .investors{
+      height: 100vh;
+      width: 100%;
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .inner-investors{
+        height: 100%;
+        width: 90%;
+        /* background-color: green; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .main-investors{
+        height: 100%;
+        width: 40%;
+        /* background-color: blue; */
+    }
+
+    .main-investors:nth-child(2){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-investors:nth-child(1){
+        width: 50%;
+        /* background-color: blue; */
+        color: white;
+    }
+
+    .main-investors:nth-child(1)>h3{
+        font-family: cbold;
+        font-size: 40px;
+        /* background-color: #ffd83d; */
+        /* padding: 20px; */
+        border-left: 2px ridge #ffd83d;
+        color: white;
+        padding-left: 10px;
+    }
+
+    .main-investors:nth-child(1)>p{
+        font-family: cmedium;
+        font-size: 20px;
+        padding-top: 20px;
+    }
+
+    .tokenomics{
+        border-top: 2px ridge #ffd83d;
+        height: 100vh;
+        width: 100%;
+        background: rgb(0,0,0);
+        /* background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(13,26,55,1) 78%);     */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 2px ridge #ffd83d;
+    }
+
+    .inner-tokenomics{
+        height: 100%;
+        width: 90%;
+        /* background-color: red; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .main-tokenomics{
+        height: 100%;
+        width: 100%;
+        /* background-color: green; */
+    }
+
+    .main-tokenomics>h3{
+        font-family: cbold;
+        font-size: 50px;
+        text-align: center;
+        color: #ffd83d;
+    }
+
+    .tgrid{
+        height: 80%;
+        width: 100%;
+        /* background-color: yellow; */
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .inner-tgrid{
+        height: 60%;
+        width: 30%;
+        background-color: black;
+        border-radius: 15px;
+        margin-top: 20px;
+        color: white;
+    }
+
+    .inner-tgrid:nth-child(1){
+        height: 100%;
+    }
+    .inner-tgrid>h3{
+        font-family: cbold;
+        font-size: 35px;
+        /* text-align: center; */
+    }
+
+    .inner-tgrid>p{
+        font-family: cmedium;
+        word-spacing: 10px;
+        /* text-align: center; */
+        padding-top: 30px;
+    }
+
+    .roadmap{
+        height: 100vh;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inner-roadmap{
+        height: 100%;
+        width: 90%;
+        /* background-color: red; */
+    }
+
+    .inner-roadmap>h3{
+        font-family: cbold;
+        font-size: 40px;
+        color: #ffd83d;
+    }
+
+    .roadmap-card{
+        height: 80%;
+        width: 100%;
+        /* background-color: rebeccapurple; */
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main-road{
+        height: 80%;
+        width: 30%;
+        /* background-color: green; */
+        opacity: .1;
+    }
+
+    .main-road>h3{
+        font-family: cbold;
+        font-size: 30px;
+        width: 50%;
+        height: calc(auto+100px);
+        background-color: #ffd83d;
+        text-align: center;
+        border-radius: 15px;
+    }
+
+    .main-road>ul{
+        height: 50%;
+        width: 100%;
+        margin-top: 30px;
+        /* background-color: red; */
+        color: white;
+    }
+    .main-road li{
+        font-family: cmedium;
+        list-style: none;
+        list-style-position:inside;
+        padding-left: 20px;
+        padding-bottom: 5px;
+    }
+
+    .main-road:nth-child(1){
+        opacity: 1;
+    }
+
+    footer{
+        height: 50vh;
+        width: 100%;
+        background-color: #ffd83d;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inner-footer{
+        height: 100%;
+        width: 90%;
+        /* background-color: red; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .main-footer{
+        height: 100%;
+        width: 30%;
+        /* background-color: green; */
+    }
+
+    .main-footer h3{
+        font-family: cmedium;
+        font-size: 25px;
+    }
+
+    .main-footer a{
+        text-decoration: none;
+        color: black;
+        font-family: cmedium;
+    }
+
+    .main-footer ul{
+        margin-top: 30px;
+    }
+
+    .main-footer li{
+        list-style: none;
+        padding-bottom: 10px;
+        font-size: 18px;
+    }
+
+    .main-footer p{
+        font-family: cmedium;
+        padding-top: 30px;
+    }

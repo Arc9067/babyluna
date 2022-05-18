@@ -1,0 +1,136 @@
+@media screen and (max-width:900px){
+    .home{
+        background-image: url(./img/gradient.png);
+    }
+    .inner-home1{
+        /* background-color: red; */
+        width: 90%;
+    }
+
+      .inner-home1>p{
+        font-size:18px ;
+    }
+    .about{
+        height: auto;
+    }
+    .in-about{
+        flex-direction: column;
+    }
+    .main-about:nth-child(1){
+        width: 90%;
+    }
+
+    .main-about:nth-child(1)>h3{
+        font-size: 30px;
+    }
+
+    .main-about:nth-child(2){
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #coind{
+        /* margin-top: 100px;
+        /* height: 0%; */
+        /* width: 100%;  */
+        /* display: none; */
+    }
+
+    .why{
+        /* background: red; */
+        height: auto;
+    }
+    .in-why{
+        flex-direction: column;
+    }
+
+    .main-why:nth-child(2) h3{
+        font-size: 35px;
+    }
+    .main-why:nth-child(1){
+        width: 90%; 
+        height: 50%;
+        /* background-color: green; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #good{
+        height: 70%;
+        width: 80%;
+    }
+
+    .main-why:nth-child(2){
+        width: 90%;
+    }
+
+    .investors{
+        /* background-color: red; */
+        height: auto;
+        /* height: 200vh; */
+    }
+
+    .inner-investors{
+        flex-direction: column;
+    }
+
+    .main-investors:nth-child(1){
+        width: 90%;
+        /* background-color: green; */
+        height: 50%;
+        margin-top: 30px;
+    }
+
+    #feed{        
+        height: 70%;
+        width: 130%;
+        margin-top: 50px;
+}
+    .tokenomics{
+        height: auto;
+        /* background-color: red; */
+    }
+    .inner-tokenomics{
+        flex-direction: column;
+    }
+
+    .main-tokenomics>h3{
+        font-size: 28px;
+        padding-top: 50px;
+    }
+    .tgrid{
+        flex-direction: column;
+    }
+
+    .inner-tgrid{
+        width: 70%;
+    }
+
+    .inner-tgrid h3{
+        font-size: 30px;
+    }
+
+    .roadmap{
+        height: auto;
+        /* background-color: red; */
+    }
+    .inner-roadmap>h3{
+        font-size: 30px;
+    }
+
+    .roadmap-card{
+        flex-direction: column;
+    }
+
+    .main-road{
+        /* background-color: green; */
+        width: 80%;
+        padding-bottom: 100px;
+    }
+
+
+}
