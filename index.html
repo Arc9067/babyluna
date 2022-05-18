@@ -8,15 +8,19 @@
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="./responsive.css">
     <link rel="stylesheet" href="./font.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://kit.fontawesome.com/22d9f2c7a2.js" crossorigin="anonymous"></script>
     <title>Baby Luna</title>
 </head>
 <body>
     <section class="home">
         <div class="inner-home1">
-            <h3>BABY LUNA</h3>
+            <h3 data-aos="fade-down"
+            data-aos-duration="2000">BABY LUNA</h3>
 
-            <p>Welcome to Baby Luna, the fastest Luna rewards token on the Binance Smart Chain (BSC). Luna is the talk of the town, The volume in Luna is bigger than that of btc and eth combined in last few days. 
+            <p data-aos="fade-up"
+            data-aos-duration="3000">Welcome to Baby Luna, the fastest Luna rewards token on the Binance Smart Chain (BSC). Luna is the talk of the town, The volume in Luna is bigger than that of btc and eth combined in last few days. 
                 Our mission is to be part of the luna revolution and support luna, Baby Luna will aim to live up to its mission by being the fastest project to hit milestones and records that separates us from other projects.</p>
         
             <div class="home-btn">
@@ -29,9 +33,13 @@
 
     <section class="about">
         <div class="in-about">
-            <div class="main-about">
-                <h3>About <span class="special special1">Baby Luna?</span></h3>
-                <p>There was a wolf named Luna , he got attacked by evil humans trying to make money out of its hide and bones, the cowardly human whales planned carefully and teamed up against the lone luna in one swift attack, although luna has many disciples their paper hands faltered against such an unexpected attack and Most of them shit their pants and ran away with their tails between their legs . 
+            <div class="main-about" style="overflow: hidden;">
+                <h3 data-aos="fade-left"
+                data-aos-duration="2000">About <span class="special special1" data-aos="fade-up"
+                data-aos-duration="3000">Baby Luna?</span></h3>
+                <p data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500">There was a wolf named Luna , he got attacked by evil humans trying to make money out of its hide and bones, the cowardly human whales planned carefully and teamed up against the lone luna in one swift attack, although luna has many disciples their paper hands faltered against such an unexpected attack and Most of them shit their pants and ran away with their tails between their legs . 
                     Luna got injured and fell sick and weak.   No longer capable of fighting alone and with his wife pregnant, all his hopes rested on his child baby luna.
                     Even though most disciples ran away during the attack many true believers stayed nearby, waiting for a chance to fight back a chance to take revenge.  Discovering Baby Luna was like a ray of sunshine and hope for these former paperhanded hardened disciples, they swore to never sell and stand and fight for their right to WAGMI, Baby luna became the symbol of their mission and revenge. 
                     
@@ -47,7 +55,9 @@
             </div>
 
             <div class="main-about">
-                <img src="./img/3d coin.png" id="coind" width="75%" alt="">
+                <img data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000" src="./img/3d coin.png" id="coind" width="75%" alt="">
             </div>
         </div>
     </section>
@@ -58,7 +68,8 @@
                 <img src="./img/good.png" id="good" height="90%" alt="">
             </div>
             <div class="main-why">
-                <h3>Why <span class="special special2">Baby Luna</span></h3>
+                <h3 data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom">Why <span class="special special2">Baby Luna</span></h3>
                 <p>Baby Luna will be different from other projects with NO private sale and NO presale that allocates tokens to investors. Without a presale, there will be no tokens allocated before launch and resulting in more tokens available in supply to give an fair opportunity for all investors. The benefit of no private/presale token allocations means no token dumps at launch.</p>
                 <div class="home-btn home-btn2">
                     <button><a class="btn-a btn-a2" href="">Read More <i class="fa-solid fa-right-long"></i></a></button>
@@ -215,5 +226,8 @@
             </div>
         </div>
     </footer>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>

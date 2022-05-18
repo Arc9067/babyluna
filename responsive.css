@@ -25,6 +25,7 @@
 
     .main-about:nth-child(1)>h3{
         font-size: 30px;
+        padding-top: 30px;
     }
 
     .main-about:nth-child(2){
