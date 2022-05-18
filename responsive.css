@@ -142,6 +142,7 @@
     .roadmap{
         height: auto;
         /* background-color: red; */
+        overflow: hidden;
     }
     .inner-roadmap>h3{
         padding-top: 30px;
